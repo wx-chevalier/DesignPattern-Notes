@@ -39,7 +39,7 @@
 
 # Nav | 导读
 
-本书的精排目录导航版请参考 [https://ng-tech.icu/repo](https://ng-tech.icu/repo)。
+本书的精排目录导航版请参考 [https://ng-tech.icu/DesignPattern-Series](https://ng-tech.icu/DesignPattern-Series)。
 
 # About | 关于
 
