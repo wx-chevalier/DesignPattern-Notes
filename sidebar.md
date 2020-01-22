@@ -19,6 +19,42 @@
     - [里氏替换](/SOLID/里氏替换.md)
   - [TS](/TS/README.md)
     - [SOLID](/TS/SOLID.md)
+  - [整洁与重构](/整洁与重构/README.md)
+    - [Code Review](/整洁与重构/Code%20Review/README.md)
+      
+    - [Go](/整洁与重构/Go/README.md)
+      
+    - [Java](/整洁与重构/Java/README.md)
+      
+    - [PHP](/整洁与重构/PHP/README.md)
+      
+    - [Python](/整洁与重构/Python/README.md)
+      
+    - [Rust](/整洁与重构/Rust/README.md)
+      
+    - [TS](/整洁与重构/TS/README.md)
+      
+    - [函数重构](/整洁与重构/函数重构/README.md)
+      
+    - [坏味道](/整洁与重构/坏味道/README.md)
+      
+    - [对象重构](/整洁与重构/对象重构/README.md)
+      
+    - [数据重构](/整洁与重构/数据重构/README.md)
+      
+    - [整洁代码](/整洁与重构/整洁代码/README.md)
+      - [异常处理](/整洁与重构/整洁代码/异常处理.md)
+      - [重复代码](/整洁与重构/整洁代码/重复代码.md)
+    - 条件选择重构
+      - [if else](/整洁与重构/条件选择重构/if-else.md)
+      - [基于策略与工厂模式的重构](/整洁与重构/条件选择重构/基于策略与工厂模式的重构.md)
+    - [概括关系重构](/整洁与重构/概括关系重构/README.md)
+      
+    - [注释](/整洁与重构/注释/README.md)
+      - [代码的自解释性](/整洁与重构/注释/代码的自解释性.md)
+      - [函数注释](/整洁与重构/注释/函数注释.md)
+    - [过程重构](/整洁与重构/过程重构/README.md)
+      
   - [编程范式](/编程范式/README.md)
     - [事件驱动编程](/编程范式/事件驱动编程/README.md)
       
