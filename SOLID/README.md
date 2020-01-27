@@ -10,7 +10,7 @@
 
 - 最少知识原则(Least Knowledge Principle, LKP)：又称迪米特法则（Law of Demeter），一个对象应该对尽可能少的对象有接触，也就是只接触那些真正需要接触的对象。
 
-- 接口分离原则（Interface Segregation Principle， ISP）：多个特定的客户端接口要好于一个通用性的总接口。
+- 接口分离原则（Interface Segregation Principle，ISP）：多个特定的客户端接口要好于一个通用性的总接口。
 
 - 依赖倒置原则（Dependency Inversion Principle, DIP）：依赖抽象，而不是依赖实现；抽象不应该依赖细节；细节应该依赖抽象；高层模块不能依赖低层模块，二者都应该依赖抽象。
 
