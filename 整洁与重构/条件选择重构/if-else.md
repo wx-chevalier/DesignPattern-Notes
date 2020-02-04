@@ -24,12 +24,12 @@ const onButtonClick = (status) => {
 
 ```js
 const actions = {
-  '1': ['processing', 'IndexPage'],
-  '2': ['fail', 'FailPage'],
-  '3': ['fail', 'FailPage'],
-  '4': ['success', 'SuccessPage'],
-  '5': ['cancel', 'CancelPage'],
-  default: ['other', 'Index']
+  "1": ["processing", "IndexPage"],
+  "2": ["fail", "FailPage"],
+  "3": ["fail", "FailPage"],
+  "4": ["success", "SuccessPage"],
+  "5": ["cancel", "CancelPage"],
+  default: ["other", "Index"]
 };
 
 /**
@@ -37,7 +37,7 @@ const actions = {
  * @param {number} status 活动状态：1开团进行中 2开团失败 3 商品售罄 4 开团成功 5 系统取消
  */
 const onButtonClick = status => {
-  let action = actions[status] || actions['default'],
+  let action = actions[status] || actions["default"],
     logName = action[0],
     pageName = action[1];
   sendLog(logName);

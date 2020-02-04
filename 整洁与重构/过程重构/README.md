@@ -21,37 +21,37 @@
 ```java
 @Command
 public class OnSaleNormalItemCmdExe {
+  @Resource
+  private OnSaleContextInitPhase onSaleContextInitPhase;
 
-    @Resource
-    private OnSaleContextInitPhase onSaleContextInitPhase;
-    @Resource
-    private OnSaleDataCheckPhase onSaleDataCheckPhase;
-    @Resource
-    private OnSaleProcessPhase onSaleProcessPhase;
+  @Resource
+  private OnSaleDataCheckPhase onSaleDataCheckPhase;
 
-    @Override
-    public Response execute(OnSaleNormalItemCmd cmd) {
+  @Resource
+  private OnSaleProcessPhase onSaleProcessPhase;
 
-        OnSaleContext onSaleContext = init(cmd);
+  @Override
+  public Response execute(OnSaleNormalItemCmd cmd) {
+    OnSaleContext onSaleContext = init(cmd);
 
-        checkData(onSaleContext);
+    checkData(onSaleContext);
 
-        process(onSaleContext);
+    process(onSaleContext);
 
-        return Response.buildSuccess();
-    }
+    return Response.buildSuccess();
+  }
 
-    private OnSaleContext init(OnSaleNormalItemCmd cmd) {
-        return onSaleContextInitPhase.init(cmd);
-    }
+  private OnSaleContext init(OnSaleNormalItemCmd cmd) {
+    return onSaleContextInitPhase.init(cmd);
+  }
 
-    private void checkData(OnSaleContext onSaleContext) {
-        onSaleDataCheckPhase.check(onSaleContext);
-    }
+  private void checkData(OnSaleContext onSaleContext) {
+    onSaleDataCheckPhase.check(onSaleContext);
+  }
 
-    private void process(OnSaleContext onSaleContext) {
-        onSaleProcessPhase.process(onSaleContext);
-    }
+  private void process(OnSaleContext onSaleContext) {
+    onSaleProcessPhase.process(onSaleContext);
+  }
 }
 ```
 
@@ -60,52 +60,52 @@ public class OnSaleNormalItemCmdExe {
 ```java
 @Phase
 public class OnSaleProcessPhase {
+  @Resource
+  private PublishOfferStep publishOfferStep;
 
-    @Resource
-    private PublishOfferStep publishOfferStep;
-    @Resource
-    private BackOfferBindStep backOfferBindStep;
-    //省略其它step
+  @Resource
+  private BackOfferBindStep backOfferBindStep;
 
-    public void process(OnSaleContext onSaleContext){
-        SupplierItem supplierItem = onSaleContext.getSupplierItem();
+  //省略其它step
+  public void process(OnSaleContext onSaleContext) {
+    SupplierItem supplierItem = onSaleContext.getSupplierItem();
 
-        // 生成OfferGroupNo
-        generateOfferGroupNo(supplierItem);
+    // 生成OfferGroupNo
+    generateOfferGroupNo(supplierItem);
 
-       // 发布商品
-        publishOffer(supplierItem);
+    // 发布商品
+    publishOffer(supplierItem);
 
-        // 前后端库存绑定 backoffer域
-        bindBackOfferStock(supplierItem);
+    // 前后端库存绑定 backoffer域
+    bindBackOfferStock(supplierItem);
 
-        // 同步库存路由 backoffer域
-        syncStockRoute(supplierItem);
+    // 同步库存路由 backoffer域
+    syncStockRoute(supplierItem);
 
-        // 设置虚拟商品拓展字段
-        setVirtualProductExtension(supplierItem);
+    // 设置虚拟商品拓展字段
+    setVirtualProductExtension(supplierItem);
 
-        // 发货保障打标 offer域
-        markSendProtection(supplierItem);
+    // 发货保障打标 offer域
+    markSendProtection(supplierItem);
 
-        // 记录变更内容ChangeDetail
-        recordChangeDetail(supplierItem);
+    // 记录变更内容ChangeDetail
+    recordChangeDetail(supplierItem);
 
-        // 同步供货价到BackOffer
-        syncSupplyPriceToBackOffer(supplierItem);
+    // 同步供货价到BackOffer
+    syncSupplyPriceToBackOffer(supplierItem);
 
-        // 如果是组合商品打标，写扩展信息
-        setCombineProductExtension(supplierItem);
+    // 如果是组合商品打标，写扩展信息
+    setCombineProductExtension(supplierItem);
 
-        // 去售罄标
-        removeSellOutTag(offerId);
+    // 去售罄标
+    removeSellOutTag(offerId);
 
-        // 发送领域事件
-        fireDomainEvent(supplierItem);
+    // 发送领域事件
+    fireDomainEvent(supplierItem);
 
-        // 关闭关联的待办事项
-        closeIssues(supplierItem);
-    }
+    // 关闭关联的待办事项
+    closeIssues(supplierItem);
+  }
 }
 ```
 
