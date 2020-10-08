@@ -21,11 +21,11 @@
     <a href="https://github.com/wx-chevalier/DesignPattern-Series"><strong>在线阅读</strong></a>
     <br />
     <br />
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series">View Demo</a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Series">速览手册</a>
     ·
     <a href="https://github.com/wx-chevalier/DesignPattern-Series/issues">Report Bug</a>
     ·
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series/issues">Request Feature</a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Series/issues">参考资料</a>
   </p>
 </p>
 
