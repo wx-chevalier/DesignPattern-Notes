@@ -18,7 +18,7 @@
   <p align="center">
     SOLID、经典设计模式、函数式编程
     <br />
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Series"><strong>在线阅读</strong></a>
     <br />
     <br />
     <a href="https://github.com/wx-chevalier/DesignPattern-Series">View Demo</a>
