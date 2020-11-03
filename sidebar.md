@@ -1,18 +1,6 @@
   - [整洁与重构](/整洁与重构/README.md)
     - [Code Review](/整洁与重构/Code%20Review/README.md)
       
-    - [Go](/整洁与重构/Go/README.md)
-      
-    - [Java](/整洁与重构/Java/README.md)
-      
-    - [PHP](/整洁与重构/PHP/README.md)
-      
-    - [Python](/整洁与重构/Python/README.md)
-      
-    - [Rust](/整洁与重构/Rust/README.md)
-      
-    - [TS](/整洁与重构/TS/README.md)
-      
     - [代码的味道](/整洁与重构/代码的味道/README.md)
       - [代码的形状](/整洁与重构/代码的味道/代码的形状.md)
     - [函数重构](/整洁与重构/函数重构/README.md)
@@ -47,6 +35,21 @@
     - [面向对象编程](/编程范式/面向对象编程/README.md)
       - [OOP 的缺陷](/编程范式/面向对象编程/OOP%20的缺陷.md)
       - [继承与组合](/编程范式/面向对象编程/继承与组合.md)
+  - 设计与重构实践
+    - [Go](/设计与重构实践/Go/README.md)
+      
+    - [Java](/设计与重构实践/Java/README.md)
+      - [依赖注入](/设计与重构实践/Java/依赖注入.md)
+      - [创建型模式](/设计与重构实践/Java/创建型模式.md)
+      - [单例](/设计与重构实践/Java/单例.md)
+    - [PHP](/设计与重构实践/PHP/README.md)
+      
+    - [Python](/设计与重构实践/Python/README.md)
+      
+    - [Rust](/设计与重构实践/Rust/README.md)
+      
+    - [TS](/设计与重构实践/TS/README.md)
+      - [SOLID](/设计与重构实践/TS/SOLID.md)
   - [设计模式基础](/设计模式基础/README.md)
     - [SOLID](/设计模式基础/SOLID/README.md)
       - [依赖倒置](/设计模式基础/SOLID/依赖倒置.md)
@@ -85,18 +88,3 @@
       - [观察者](/设计模式基础/行为型模式/观察者.md)
       - [访问者](/设计模式基础/行为型模式/访问者.md)
       - [迭代器](/设计模式基础/行为型模式/迭代器.md)
-  - 设计模式实践
-    - [Go](/设计模式实践/Go/README.md)
-      
-    - [Java](/设计模式实践/Java/README.md)
-      - [依赖注入](/设计模式实践/Java/依赖注入.md)
-      - [创建型模式](/设计模式实践/Java/创建型模式.md)
-      - [单例](/设计模式实践/Java/单例.md)
-    - [PHP](/设计模式实践/PHP/README.md)
-      
-    - [Python](/设计模式实践/Python/README.md)
-      
-    - [Rust](/设计模式实践/Rust/README.md)
-      
-    - [TS](/设计模式实践/TS/README.md)
-      - [SOLID](/设计模式实践/TS/SOLID.md)
