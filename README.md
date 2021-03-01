@@ -37,7 +37,7 @@
 
 ![mindmap](https://i.postimg.cc/Jz4vvTrm/image.png)
 
-# Nav | 导读
+# Nav | 关联导航
 
 本书的精排目录导航版请参考 [https://ng-tech.icu/DesignPattern-Series](https://ng-tech.icu/DesignPattern-Series)。
 
