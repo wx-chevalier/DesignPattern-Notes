@@ -10,7 +10,7 @@
 
 # 特性
 
-# TBD
+# Links
 
 - https://www.zhoulujun.cn/html/theory/model/8139.html?from=groupmessage&isappinstalled=0
 - https://mp.weixin.qq.com/s/1pAzdyBR4qE1A2aZF4GVIw

@@ -4,6 +4,6 @@
 
 代码注释的另一个更大的问题是，它们被视为独立于代码的东西，完全与代码相分离。但如果我们将其视为代码的组成部分，或者一种补充实体，那么只要代码发生变化就会很自然地去调整注释。
 
-# TBD
+# Links
 
 - http://gdut_yy.gitee.io/doc-aposd/ch12.html#_12-3-comments-get-out-of-date-and-become-misleading-注释过时并产生误导 为什么写注释？四个理由
