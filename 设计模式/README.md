@@ -17,4 +17,12 @@
 - 对接口编程而不是对实现编程。
 - 优先使用对象组合而不是继承。
 
-![](https://i.postimg.cc/W1tRts0Y/image.png)
+![设计模式之间的关系](https://pic.imgdb.cn/item/615167512ab3f51d91510099.jpg)
+
+# Links
+
+- [Refactoring Guru](https://refactoringguru.cn/design-patterns/factory-method)
+
+- https://mp.weixin.qq.com/s/yEAdDRijRav9bYgvR8a8QQ 2.5 万字详解：23 种设计模式
+
+- https://har01d.cn/notes/prototype-pattern.html
