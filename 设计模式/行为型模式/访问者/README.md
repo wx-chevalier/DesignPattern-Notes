@@ -5,15 +5,13 @@
 # 案例：XML 文件导出
 
 ```ts
-// 元素接口声明了一个`accept`（接收）方法，它会将访问者基础接口作为一个参
-// 数。
+// 元素接口声明了一个`accept`（接收）方法，它会将访问者基础接口作为一个参数。
 interface Shape is
     method move(x, y)
     method draw()
     method accept(v: Visitor)
 
-// 每个具体元素类都必须以特定方式实现`accept`方法，使其能调用相应元素类的
-// 访问者方法。
+// 每个具体元素类都必须以特定方式实现`accept`方法，使其能调用相应元素类的访问者方法。
 class Dot extends Shape is
     // ...
 
