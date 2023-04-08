@@ -1,6 +1,6 @@
   - 1 CleanCode [1]
-    - 1.1 999.参考资料 [1]
-      - [1.1.1 Clean Code Notes](/CleanCode/999.参考资料/Clean%20Code%20Notes.md)
+    - 1.1 99.参考资料 [1]
+      - [1.1.1 Clean Code Notes](/CleanCode/99.参考资料/Clean%20Code%20Notes.md)
   - [2 INTRODUCTION](/INTRODUCTION.md)
   - [3 SOLID [6]](/SOLID/README.md)
     - [3.1 依赖倒置](/SOLID/依赖倒置.md)
