@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/wx-chevalier/DesignPattern-Series">
+  <a href="https://github.com/wx-chevalier/DesignPattern-Notes">
     <img src="https://s2.ax1x.com/2020/01/06/lr21MT.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -18,14 +18,14 @@
   <p align="center">
     SOLID、经典设计模式、函数式编程
     <br />
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series"><strong>在线阅读 >> </strong></a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Notes"><strong>在线阅读 >> </strong></a>
     <br />
     <br />
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series">速览手册</a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Notes">速览手册</a>
     ·
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series/issues">Report Bug</a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Notes/issues">Report Bug</a>
     ·
-    <a href="https://github.com/wx-chevalier/DesignPattern-Series/issues">参考资料</a>
+    <a href="https://github.com/wx-chevalier/DesignPattern-Notes/issues">参考资料</a>
   </p>
 </p>
 
@@ -39,7 +39,7 @@
 
 # Nav | 关联导航
 
-本书的精排目录导航版请参考 [https://ng-tech.icu/books/DesignPattern-Series](https://ng-tech.icu/books/DesignPattern-Series)。
+本书的精排目录导航版请参考 [https://ng-tech.icu/books/DesignPattern-Notes](https://ng-tech.icu/books/DesignPattern-Notes)。
 
 # About | 关于
 
@@ -74,13 +74,13 @@ Contributions are what make the open source community such an amazing place to b
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/wx-chevalier/DesignPattern-Series.svg?style=flat-square
-[contributors-url]: https://github.com/wx-chevalier/DesignPattern-Series/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/wx-chevalier/DesignPattern-Series.svg?style=flat-square
-[forks-url]: https://github.com/wx-chevalier/DesignPattern-Series/network/members
-[stars-shield]: https://img.shields.io/github/stars/wx-chevalier/DesignPattern-Series.svg?style=flat-square
-[stars-url]: https://github.com/wx-chevalier/DesignPattern-Series/stargazers
-[issues-shield]: https://img.shields.io/github/issues/wx-chevalier/DesignPattern-Series.svg?style=flat-square
-[issues-url]: https://github.com/wx-chevalier/DesignPattern-Series/issues
-[license-shield]: https://img.shields.io/github/license/wx-chevalier/DesignPattern-Series.svg?style=flat-square
-[license-url]: https://github.com/wx-chevalier/DesignPattern-Series/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/wx-chevalier/DesignPattern-Notes.svg?style=flat-square
+[contributors-url]: https://github.com/wx-chevalier/DesignPattern-Notes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wx-chevalier/DesignPattern-Notes.svg?style=flat-square
+[forks-url]: https://github.com/wx-chevalier/DesignPattern-Notes/network/members
+[stars-shield]: https://img.shields.io/github/stars/wx-chevalier/DesignPattern-Notes.svg?style=flat-square
+[stars-url]: https://github.com/wx-chevalier/DesignPattern-Notes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wx-chevalier/DesignPattern-Notes.svg?style=flat-square
+[issues-url]: https://github.com/wx-chevalier/DesignPattern-Notes/issues
+[license-shield]: https://img.shields.io/github/license/wx-chevalier/DesignPattern-Notes.svg?style=flat-square
+[license-url]: https://github.com/wx-chevalier/DesignPattern-Notes/blob/master/LICENSE.txt
