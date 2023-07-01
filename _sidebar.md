@@ -48,10 +48,14 @@
       - [2.4.10 迭代器](/02.设计模式/03.行为型模式/迭代器.md)
     - [2.5 04.其他模式](/02.设计模式/04.其他模式/README.md)
       
-    - 2.6 99.参考资料 [2]
-      - [2.6.1 Refactoring Guru](/02.设计模式/99.参考资料/Refactoring%20Guru/README.md)
+    - 2.6 99.参考资料 [3]
+      - 2.6.1 Design Patterns for Humans [3]
+        - [2.6.1.1 cpp design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-cpp-design-patterns-for-humans.md)
+        - [2.6.1.2 design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-design-patterns-for-humans.md)
+        - [2.6.1.3 javascript design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-javascript-design-patterns-for-humans.md)
+      - [2.6.2 Refactoring Guru](/02.设计模式/99.参考资料/Refactoring%20Guru/README.md)
         
-      - [2.6.2 李兴华 研磨设计模式](/02.设计模式/99.参考资料/李兴华-研磨设计模式/README.md)
+      - [2.6.3 李兴华 研磨设计模式](/02.设计模式/99.参考资料/李兴华-研磨设计模式/README.md)
         
   - 3 03.CleanCode [1]
     - 3.1 99.参考资料 [1]
