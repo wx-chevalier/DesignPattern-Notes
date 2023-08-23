@@ -13,13 +13,13 @@
       - [1.5.1 OOP 的缺陷](/01.编程范式/面向对象编程/OOP%20的缺陷.md)
       - [1.5.2 继承与组合](/01.编程范式/面向对象编程/继承与组合.md)
   - [2 02.设计模式 [6]](/02.设计模式/README.md)
-    - [2.1 00.SOLID [6]](/02.设计模式/00.SOLID/README.md)
-      - [2.1.1 依赖倒置](/02.设计模式/00.SOLID/依赖倒置.md)
-      - [2.1.2 单一职责](/02.设计模式/00.SOLID/单一职责.md)
-      - [2.1.3 开放封闭](/02.设计模式/00.SOLID/开放封闭.md)
-      - [2.1.4 接口隔离](/02.设计模式/00.SOLID/接口隔离.md)
-      - [2.1.5 最少知识](/02.设计模式/00.SOLID/最少知识.md)
-      - [2.1.6 里氏替换](/02.设计模式/00.SOLID/里氏替换.md)
+    - [2.1 00~SOLID [6]](/02.设计模式/00~SOLID/README.md)
+      - [2.1.1 依赖倒置](/02.设计模式/00~SOLID/依赖倒置.md)
+      - [2.1.2 单一职责](/02.设计模式/00~SOLID/单一职责.md)
+      - [2.1.3 开放封闭](/02.设计模式/00~SOLID/开放封闭.md)
+      - [2.1.4 接口隔离](/02.设计模式/00~SOLID/接口隔离.md)
+      - [2.1.5 最少知识](/02.设计模式/00~SOLID/最少知识.md)
+      - [2.1.6 里氏替换](/02.设计模式/00~SOLID/里氏替换.md)
     - [2.2 01.创建型模式 [5]](/02.设计模式/01.创建型模式/README.md)
       - [2.2.1 单例](/02.设计模式/01.创建型模式/单例.md)
       - [2.2.2 原型](/02.设计模式/01.创建型模式/原型.md)
@@ -48,16 +48,16 @@
       - [2.4.10 迭代器](/02.设计模式/03.行为型模式/迭代器.md)
     - [2.5 04.其他模式](/02.设计模式/04.其他模式/README.md)
       
-    - 2.6 99.参考资料 [3]
+    - 2.6 99~参考资料 [3]
       - 2.6.1 Design Patterns for Humans [3]
-        - [2.6.1.1 cpp design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-cpp-design-patterns-for-humans.md)
-        - [2.6.1.2 design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-design-patterns-for-humans.md)
-        - [2.6.1.3 javascript design patterns for humans](/02.设计模式/99.参考资料/2017-Design%20Patterns%20for%20Humans/2017-javascript-design-patterns-for-humans.md)
-      - [2.6.2 Refactoring Guru](/02.设计模式/99.参考资料/Refactoring%20Guru/README.md)
+        - [2.6.1.1 cpp design patterns for humans](/02.设计模式/99~参考资料/2017-Design%20Patterns%20for%20Humans/2017-cpp-design-patterns-for-humans.md)
+        - [2.6.1.2 design patterns for humans](/02.设计模式/99~参考资料/2017-Design%20Patterns%20for%20Humans/2017-design-patterns-for-humans.md)
+        - [2.6.1.3 javascript design patterns for humans](/02.设计模式/99~参考资料/2017-Design%20Patterns%20for%20Humans/2017-javascript-design-patterns-for-humans.md)
+      - [2.6.2 Refactoring Guru](/02.设计模式/99~参考资料/Refactoring%20Guru/README.md)
         
-      - [2.6.3 李兴华 研磨设计模式](/02.设计模式/99.参考资料/李兴华-研磨设计模式/README.md)
+      - [2.6.3 李兴华 研磨设计模式](/02.设计模式/99~参考资料/李兴华-研磨设计模式/README.md)
         
   - 3 03.CleanCode [1]
-    - 3.1 99.参考资料 [1]
-      - [3.1.1 Clean Code Notes](/03.CleanCode/99.参考资料/Clean%20Code%20Notes.md)
+    - 3.1 99~参考资料 [1]
+      - [3.1.1 Clean Code Notes](/03.CleanCode/99~参考资料/Clean%20Code%20Notes.md)
   - [4 INTRODUCTION](/INTRODUCTION.md)
