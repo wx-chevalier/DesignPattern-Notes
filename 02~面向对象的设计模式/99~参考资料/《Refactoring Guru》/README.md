@@ -4,4 +4,4 @@
 - 结构型模式：这类模式介绍如何将对象和类组装成较大的结构，并同时保持结构的灵活和高效。
 - 行为模式：这类模式负责对象间的高效沟通和职责委派。
 
-![设计模式总览](https://assets.ng-tech.icu/item/20230611213808.png)
+![设计模式总览](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230611213808.png)

@@ -35,7 +35,7 @@
 
 本篇的所有参考代码归纳在 [design-pattern-snippets](https://github.com/wx-chevalier/design-pattern-snippets) 仓库中。
 
-![mindmap](https://assets.ng-tech.icu/item/20230418222449.png)
+![mindmap](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230418222449.png)
 
 # Nav | 关联导航
 
