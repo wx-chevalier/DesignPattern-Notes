@@ -310,12 +310,6 @@ square_function_t square = new square_function_t();
 
 惰性求值（或是延迟求值）是一种有趣的技术，而当我们投入函数式编程的怀抱后这种技术就有了得以实现的可能。前面介绍并发执行的时候已经提到过如下代码：
 
-```java
-String s1 = somewhatLongOperation1();
-String s2 = somewhatLongOperation2();
-String s3 = concatenate(s1, s2);
-```
-
 在指令式语言中以上代码执行的顺序是显而易见的。由于每个函数都有可能改动或者依赖于其外部的状态，因此必须顺序执行。先是计算`somewhatLongOperation1`，然后到`somewhatLongOperation2`，最后执行`concatenate`。函数式语言就不一样了。
 
 在前面讨论过，`somewhatLongOperation1`和`somewhatLongOperation2`是可以并发执行的，因为函数式语言保证了一点：没有函数会影响或者依赖于全局状态。可是万一我们不想要这两个函数并发执行呢？这种情况下是不是也还是要顺序执行这些函数？答案是否定的。只有到了执行需要 s1、s2 作为参数的函数的时候，才真正需要执行这两个函数。于是在`concatenate`这个函数没有执行之前，都没有需要去执行这两个函数：这些函数的执行可以一直推迟到`concatenate()`中需要用到 s1 和 s2 的时候。假如把`concatenate`换成另外一个函数，这个函数中有条件判断语句而且实际上只会需要两个参数中的其中一个，那么就完全没有必要执行计算另外一个参数的函数了！Haskell 语言就是一个支持惰性求值的例子。Haskell 不能保证任何语句会顺序执行（甚至完全不会执行到），因为 Haskell 的代码只有在需要的时候才会被执行到。
