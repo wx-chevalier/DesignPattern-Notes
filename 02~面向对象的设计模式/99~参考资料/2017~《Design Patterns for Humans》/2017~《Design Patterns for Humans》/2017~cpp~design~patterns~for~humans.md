@@ -8,7 +8,7 @@
 <p align="center">
 A topic that can easily make anyone's mind wobble. Here I try to make them stick
 in to your mind (and maybe mine) by explaining them in the <i>simplest</i> way
-possible. 
+possible.
 </p>
 <p align="center">
 This work is a derivative of
@@ -967,7 +967,6 @@ class Projects : public WebPage
   private:
     std::shared_ptr<Theme> theme_;
 };
-
 
 class Careers : public WebPage
 {

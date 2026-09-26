@@ -35,7 +35,6 @@ class CompoundShape implements Shape is
     method accept(v: Visitor) is
         v.visitCompoundShape(this)
 
-
 // 访问者接口声明了一组与元素类对应的访问方法。访问方法的签名能让访问者准
 // 确辨别出与其交互的元素所属的类。
 interface Visitor is
@@ -61,7 +60,6 @@ class XMLExportVisitor implements Visitor is
 
     method visitCompoundShape(cs: CompoundShape) is
         // 导出图形（shape）的 ID 和其子项目的 ID 列表。
-
 
 // 客户端代码可在不知晓具体类的情况下在一组元素上运行访问者操作。“接收”操
 // 作会将调用定位到访问者对象的相应操作上。
